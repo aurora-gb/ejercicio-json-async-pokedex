@@ -1,0 +1,60 @@
+.section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Archivo", sans-serif;
+  background-color: red;
+  width: 250px;
+  height: 300px;
+  border-radius: 20px;
+  img {
+    width: 150px;
+  }
+  margin: 10px;
+}
+
+.modal {
+  position: relative;
+  background-color: red;
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  border: none;
+}
+
+.dialogo__cruz {
+  width: 15px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+/* #dialogo__img{
+
+} */
+
+#dialogo__nombe {
+  background-color: rgb(7, 176, 255);
+  display: flex;
+  justify-content: center;
+}
+
+#dialogo__tipo {
+  background-color: rgb(55, 255, 0);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#dialogo__caract {
+  background-color: rgb(162, 0, 255);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
